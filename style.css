@@ -46,7 +46,7 @@ button {
     font-size: 2vh;
     border-radius: 10px;
     background-image: linear-gradient(to right top, #da5252, #df3563, #dd077c, #cf009b, #b100bd, #953ad8, #6c55ee, #0069ff, #008aff, #009fec, #00adc9, #00b7ab);
- }
+}
 
 button:hover  {
     outline: none;
