@@ -1,0 +1,91 @@
+body { 
+    font-family: cursive;
+    text-align: center;
+    margin: 0;
+    background-image: linear-gradient(to top, #da5252, #df3563, #dd077c, #cf009b, #b100bd, #953ad8, #6c55ee, #0069ff, #008aff, #009fec, #00adc9, #00b7ab);
+    height: 100vh;
+}
+ 
+h1 { 
+    font-size: 12vh;
+    margin: auto auto 5px auto;
+    padding: 10px;
+    color: rgb(30, 228, 146);
+}
+
+h4 {
+    font-size: 23px;
+    margin: 5px;
+}
+ 
+.players-display {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+img {
+    margin: 10px 20px; 
+    width: 180px;
+    height: 180px;
+}
+.logo {
+    transition-duration: 600ms;
+    width: 40px;
+    height: 40px;
+}
+
+ 
+button {
+    margin: 20px auto 10px auto ;
+    width: 20vh;
+    height: 5vh;
+    cursor: pointer;
+    color: black;
+    font-size: 2vh;
+    border-radius: 10px;
+    background-image: linear-gradient(to right top, #da5252, #df3563, #dd077c, #cf009b, #b100bd, #953ad8, #6c55ee, #0069ff, #008aff, #009fec, #00adc9, #00b7ab);
+ }
+
+button:hover  {
+    outline: none;
+    background-image: linear-gradient(to left bottom, #da5252, #df3563, #dd077c, #cf009b, #b100bd, #953ad8, #6c55ee, #0069ff, #008aff, #009fec, #00adc9, #00b7ab);
+ } 
+
+.float {
+
+    position: absolute;
+    bottom: 0;
+    left: 0 ;
+    right: 0;
+    padding: 20px;
+}
+ .logo:hover {
+    transform: translateY(-10px);
+ }
+
+@media (max-width: 400px) {
+ 
+    h1 { 
+        font-size: 7vh;
+        margin: auto auto 5px auto;
+        padding: 10px;
+        color: rgb(122, 255, 199);
+    }
+
+    img {
+        margin: 10px 20px; 
+        width: 100px;
+        height: 100px;
+    }
+
+    button {
+        margin: 20px auto 10px auto ;
+        width: 17vh;
+        height: 5vh;
+        border-radius: 10px;
+        background-image: linear-gradient(to right top, #da5252, #df3563, #dd077c, #cf009b, #b100bd, #953ad8, #6c55ee, #0069ff, #008aff, #009fec, #00adc9, #00b7ab);
+     }
+    
+}
