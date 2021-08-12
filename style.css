@@ -1,5 +1,8 @@
+@import url(https://fonts.googleapis.com/css2?family=Maitree:wght@100;200;300;400;500;600;700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Margarine&display=swap);
+
 body { 
-    font-family: cursive;
+    font-family: 'Maitree', serif;
     text-align: center;
     margin: 0;
     background-image: linear-gradient(to top, #da5252, #df3563, #dd077c, #cf009b, #b100bd, #953ad8, #6c55ee, #0069ff, #008aff, #009fec, #00adc9, #00b7ab);
@@ -42,11 +45,14 @@ button {
     width: 20vh;
     height: 5vh;
     cursor: pointer;
+    font-family: serif;
     color: black;
-    font-size: 2vh;
+    font-size: 3vh;
+    outline: none;
     border-radius: 10px;
     background-image: linear-gradient(to right top, #da5252, #df3563, #dd077c, #cf009b, #b100bd, #953ad8, #6c55ee, #0069ff, #008aff, #009fec, #00adc9, #00b7ab);
 }
+
 
 button:hover  {
     outline: none;
@@ -70,7 +76,7 @@ button:hover  {
     h1 { 
         font-size: 7vh;
         margin: auto auto 5px auto;
-        padding: 10px;
+        padding-top: 60px;
         color: rgb(122, 255, 199);
     }
 
@@ -80,12 +86,23 @@ button:hover  {
         height: 100px;
     }
 
+    .img1, .img2 {
+
+        padding-top: 30px;
+        width: 130px;
+        height: 130px;
+    }
+
     button {
-        margin: 20px auto 10px auto ;
+        margin: 50px auto 10px auto ;
         width: 17vh;
         height: 5vh;
         border-radius: 10px;
         background-image: linear-gradient(to right top, #da5252, #df3563, #dd077c, #cf009b, #b100bd, #953ad8, #6c55ee, #0069ff, #008aff, #009fec, #00adc9, #00b7ab);
      }
+
+    .players-display {
+        margin-top: 50px;
+    }
     
 }

@@ -13,9 +13,9 @@ button.addEventListener('click', ()=> {
     img2.setAttribute('src', `images/dice${random2}.png`)   
 
     if (random1 < random2){
-        winnerDisplay.innerText = 'Payer2 Won'
+        winnerDisplay.innerText = 'Player 2 Won'
     }else if (random1 > random2) {
-        winnerDisplay.innerText = 'Payer1 Won'
+        winnerDisplay.innerText = 'Player 1 Won'
     }else if (random1 = random2) {
         winnerDisplay.innerText = 'Draw'
     }
