@@ -74,7 +74,7 @@ button:hover  {
 @media (max-width: 600px) {
  
     h1 { 
-        font-size: 40px;
+        font-size: 38px;
         margin: auto auto 5px auto;
         padding-top: 60px;
         color: rgb(122, 255, 199);
